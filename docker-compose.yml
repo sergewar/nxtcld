@@ -1,3 +1,6 @@
+
+version: '3.5'
+
 services:
 
   proxy:
@@ -77,3 +80,5 @@ volumes:
 
 networks:
   nextcloud_network:
+    external: false
+    name: nextcloud_network
