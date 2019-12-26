@@ -69,8 +69,8 @@ services:
       - ./app/themes:/var/www/html/themes
       - /etc/localtime:/etc/localtime:ro
     environment:
-      - VIRTUAL_HOST=omv.local
-      - LETSENCRYPT_HOST=omv.local
+      - VIRTUAL_HOST=nxt.sergewar.keenetic.link
+      - LETSENCRYPT_HOST=nxt.sergewar.keenetic.link
       - LETSENCRYPT_EMAIL=sergewar@gmail.com
     restart: unless-stopped
 
