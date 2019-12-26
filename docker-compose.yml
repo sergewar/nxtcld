@@ -70,7 +70,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
     environment:
       - VIRTUAL_HOST=omv.local
-      - LETSENCRYPT_HOST=omv.local,sergewar.keenetic.link
+      - LETSENCRYPT_HOST=omv.local
       - LETSENCRYPT_EMAIL=sergewar@gmail.com
     restart: unless-stopped
 
